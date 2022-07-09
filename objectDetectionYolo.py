@@ -444,7 +444,7 @@ def start_program():
     output_list = main('./model.h5',file_path, obj_thresh)
     return jsonify(output_list)
 
-app.run()
+app.run(host="0.0.0.0")
 
 
 
