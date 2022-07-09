@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.1.1-cudnn8-devel-ubuntu:14.04.4
+FROM nvidia/cuda:11.0-cudnn8-devel-ubuntu18.04-rc
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update 
 
