@@ -46,4 +46,3 @@ WORKDIR /app
 COPY . /app
 
 CMD python3.7 objectDetectionYolo.py
-
