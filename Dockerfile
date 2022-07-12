@@ -1,4 +1,4 @@
-FROM nexus.nextaibox.com/nvidia/cuda:11.7.0-base-ubuntu22.04
+FROM nvidia/cuda:11.7.0-base-ubuntu22.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
 RUN apt-get install -y libgl1
