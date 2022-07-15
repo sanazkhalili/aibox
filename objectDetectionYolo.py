@@ -419,7 +419,8 @@ def main(path_weight, photo_filename, obj_thresh=0.3, nms_thresh=0.3):
           box_result['score'] = v_scores[i]
           box_result['class'] = v_labels[i]
           result.append(box_result)
-      print("fff", len(result))
+      if len(result)==0:
+         print("It doesn't have any objects.")
       return result
 
 
