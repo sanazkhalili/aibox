@@ -433,7 +433,7 @@ app = Flask(__name__)
 
 output_list=[]
 
-@app.route('http://0.0.0.0:2000',methods=['POST'])
+@app.route('/http://0.0.0.0:2000',methods=['POST'])
 def start_program():
     f = request.files['image']
     
